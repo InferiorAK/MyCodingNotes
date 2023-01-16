@@ -17,11 +17,11 @@ void check(char inp)
     case 'I':
     case 'O':
     case 'U':
-        printf("%c is a Vowel", inp);
+        printf("%c is a Vowel\n", inp);
         break;
 
     default:
-        printf("%c is a Consonant", inp);
+        printf("%c is a Consonant\n", inp);
         break;
     }
 }
