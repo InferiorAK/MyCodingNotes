@@ -22,7 +22,7 @@ void check(int a)
 
     // Short Process
     // -------------
-    if (a % 400 == 0 || a % 100 != 0 && a % 4 == 0)
+    if (a % 400 == 0 || (a % 100 != 0 && a % 4 == 0))
     {
         printf("Oh! %d is a Leap Year", a);
     }
