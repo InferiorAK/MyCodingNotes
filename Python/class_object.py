@@ -18,8 +18,8 @@ print(get.name, get.addr)
 # print(get.occ)
 print(get.test())
 
-get.name = "GB" # changing the class name
-get.addr = "US" # changing the class addr
+get.name = "GB" # changing the name
+get.addr = "US" # changing the addr
 get.occ = "student" # new adding to class
 print(get.test())
 print(get.occ)
