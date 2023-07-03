@@ -56,6 +56,6 @@ class gather:
     def __init__(self):
         info2()._info2__private() # Accessing private method from info2 class
         
-gather
+gather()
 # print(gather().__dir__())
-# print(dir(gather))
+# print(dir(gather()))
