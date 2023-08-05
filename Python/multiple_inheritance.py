@@ -1,5 +1,5 @@
 # Author : InferiorAK
-# Inheritance in python
+# Multiple Inheritance in python
 
 class info:
 	def __init__(self, name):
