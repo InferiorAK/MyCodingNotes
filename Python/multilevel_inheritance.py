@@ -1,5 +1,5 @@
 # Author : InferiorAK
-# Inheritance in python
+# Multilevel Inheritance in python
 
 # It's like father, his child, his grandchild .... All the characteristics will be presented in the relationship like tree.
 
