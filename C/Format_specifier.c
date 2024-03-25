@@ -64,7 +64,10 @@ int main()
 
     int *ptr = &x;
     printf("The address in decimal : %d\n", ptr); 
-    printf("The address in hexadecimal : %p\n", ptr);
+    printf("The address in hexadecimal : %p\n\n", ptr);
+
+    float ans = (float) 3/2;
+    printf("Ans is: %f", ans);
 
     return 0;
 }
