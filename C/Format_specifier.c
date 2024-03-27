@@ -62,9 +62,11 @@ int main()
     printf("This is a float!: %f\n", q);
     printf("This is long float!: %lf\n\n", r);  // long float
 
+    int a = 69;
+    printf("Memory Address of var a: %d, %p\n", &a, &a);
     int *ptr = &x;
-    printf("The address in decimal : %d\n", ptr); 
-    printf("The address in hexadecimal : %p\n\n", ptr);
+    printf("Memory address in decimal : %d\n", ptr); 
+    printf("Memory address in hexadecimal : %p\n\n", ptr);
 
     float ans = (float) 3/2;
     printf("Ans is: %f", ans);
