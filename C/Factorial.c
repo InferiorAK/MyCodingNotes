@@ -3,29 +3,30 @@
 
 #include <stdio.h>
 
-int factorial_with_recursion(int f)
+int factorial_with_recursion(int num)
 {
-    int result = 1;
-    if (f == 1)
+    int result = num;
+    if (num > 1)
     {
+        result *= factorial_with_recursion(num - 1);
         return result;
     }
     else
     {
-        return f * factorial_with_recursion(f - 1);
+        return 1;
     }
 }
 
-int factorial_with_for_loop(int f)
+int factorial_with_for_loop(int num)
 {
     int result = 1;
-    if (f == 1)
+    if (num == 1)
     {
         return result;
     }
     else
     {
-        for (int i = 1; i < (f + 1); i++)
+        for (int i = 1; i < (num + 1); i++)
         {
             result *= i;
         }
