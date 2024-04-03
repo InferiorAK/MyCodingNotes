@@ -1,3 +1,6 @@
+// Author: InferiorAK
+// File Handling in C programming
+
 #include <stdio.h>
 
 // Read a File
