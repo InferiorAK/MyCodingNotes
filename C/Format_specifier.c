@@ -6,7 +6,7 @@
 // %d	a decimal integer (assumes base 10)
 // %x	a hexadecimal (base 16) integer
 // %i	a decimal integer (detects the base automatically)
-// %u	int unsigned decimal
+// %u	int unsigned decimal -> Used for Adrerss, cz Adress can't be -ve and unsigned operator always return +ve Number!
 
 // %f	a floating point number for floats
 // %e	a floating point number in scientific notation
