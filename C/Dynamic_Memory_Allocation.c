@@ -27,13 +27,15 @@ int m_alloc() // Memory Allocation
     for (i = 0; i < count; i++)
     {
         printf("Input your number %d: ", i + 1);
+        // scanf("%d", &ptr[i]);
         scanf("%d", ptr + i); // Here we are increasing ptr adress value by 1 each time!
-                              // Suppose, Primary ptr address is 1000, now we are increasing
+                              // Suppose, Primary ptr address is 1000, now we are increasing -
                               // it like this: 1001, 1002, 1003 , .......
                               // Thus we are making this, allocated with given bytes with sequential Address
     }
     for (i = 0; i < count; i++)
     {
+        // printf("Number %d: %d\n", i + 1, ptr[i];
         printf("Number %d: %d\n", i + 1, *(ptr + i)); // Here the values of ptr will be printed sequentially
     }
 }
