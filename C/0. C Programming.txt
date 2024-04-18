@@ -1,0 +1,23 @@
+100000% VVI Topics
+-------------------
+* Recursion
+* Pointer
+* Structure
+* Dynamic Memory Allocation: malloc(), calloc(), realloc(), free()
+* Storage Classes
+
+
+
+Basic Special Notes:
+---------------------
+++m (prefix)  = It increments value of m first and then uses that value
+m++ (postfix) = It uses that value first and then increments
+
+"S" = When we use double quote, then it's a string Const
+'C' = When we use single quote, then it's a Character Const
+
+sizeof() = It's an Operator, not a Function. It tells us the number of bytes required to store in memory
+
+& = Referencing Operator
+* = Dereferncing Operator
+%u = Unsigned Operator -> We use this for Adress, Cz Adress is always (+)ve Value
