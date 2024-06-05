@@ -14,7 +14,7 @@
 
 # Bitwise Operation Priority Sequence if there are multiple Operators:
 #     ~ , << >>, &, ^, |
-# 101 & 110 | 100 = 100
+# Ex: 101 & 110 | 100 = 100
 
 # Left shift
 x = 55
