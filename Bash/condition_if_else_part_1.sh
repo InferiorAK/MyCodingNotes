@@ -18,7 +18,7 @@
 
 # string comparisons
         #  =  : equal to  --  if [ "$a" = "$b" ]
-        # ==  : equal to  --  if [ "$a" == "$b" ]
+        # ==  : equal to  --  if [ "$a" == "$b" ]    # or, if [[ "$a" == "$b" ]]
         # !=  : not equal to  --  if [ "$a" != "$b" ]
         #  <  : less than (in ASII alphabetical order)  --  if [[ "$a" < "$b" ]]
         #  >  : greater than (in ASII alphabetical order)  --  if [[ "$a" > "$b" ]]
