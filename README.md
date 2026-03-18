@@ -1,2 +1,7 @@
 # MyCodingNotes
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Finferiorak%2FMyCodingNotes&title=Visitors&edge_flat=false"/>
+
+<div align="center">
+  
+  ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=InferiorAK.MyCodingNotes)
+  
+</div>
